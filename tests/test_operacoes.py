@@ -4,7 +4,7 @@ from calc import divide, media, soma, subtrai
 
 
 def test_soma():
-    assert soma(2, 3) == 5
+    assert soma(2, 3) == 6
 
 
 def test_subtrai():
