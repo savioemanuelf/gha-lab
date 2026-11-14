@@ -1,0 +1,13 @@
+name: atividade 01, Olá, Actions
+on: push
+jobs:
+  saaudacao:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dizer olá
+        run: echo "Olá, ${{github.actor}}. O evento foi ${{github.event_name}}"
+      - name: Info
+        run: echo |
+            $RUNNER_OS
+            python3 --version
+        
