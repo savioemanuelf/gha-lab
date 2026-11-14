@@ -10,7 +10,7 @@ jobs:
       - name: Dizer olá
         run: echo "Olá, ${{github.actor}}. O evento foi ${{github.event_name}}"
       - name: Info
-        run: echo |
-            $RUNNER_OS
+        run: |
+            echo $RUNNER_OS
             python3 --version
         
