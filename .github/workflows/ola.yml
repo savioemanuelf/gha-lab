@@ -1,5 +1,8 @@
 name: atividade 01, Olá, Actions
-on: push
+on: 
+    push:
+    workflow_dispatch:
+
 jobs:
   saaudacao:
     runs-on: ubuntu-latest
