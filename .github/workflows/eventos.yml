@@ -17,4 +17,4 @@ jobs:
         steps:
             - env:
                 NOME: ${{inputs.nome || 'agendamento'}}
-            run: echo "Olá, $NOME ($GITHUB_EVENT_NAME)"
+              run: echo "Olá, $NOME ($GITHUB_EVENT_NAME)"
